@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Letina Journeys</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="logo">
+        <h1>Letina Journeys</h1>
+        <h3>Self-regulated learning Strategy</h3>
+    </div>
+    <div class="navbar" id="mynavbar">
+    
+      <a href="#">HOME</a>
+      <a href="#">DESIGN</a>
+      <div class="dropdown">
+        <button class="dropbtn">COURSES</button>
+        <div class="dropdown-list">
+          <a href="/AI.doc">AI</a>
+          <a href="Android Developers.docx">Adroid Developer</a>
+          <a href="DATA ANALYSIS AND FUNDAMENTALS.docx">Data Analysis</a>
+          <a href="Programming Fundamentals.docx">Programming Fundamentals</a>
+          <a href="Programming in Python.docx">PYTHON</a>
+          <a href="CPP(C++).docx">C++</a>
+        </div>
+      </div> 
+      <div class="dropdown">
+        <button class="dropbtn">CERTIFICATES</button>
+        <div class="dropdown-list">
+          <a href="https://www.udacity.com/certificate/e/0b5ca096-75b9-11ef-8c97-0300cc871a58">Data Analysis Fundamentals</a>
+          <a href="https://www.udacity.com/certificate/e/47e06726-e9d8-11ef-bdf4-ab94862926be">Artificial Intelligence Fundamentals</a>
+          <a href="https://www.udacity.com/certificate/e/a68387bc-e53d-11ef-8495-e302a81d81dc">Programming Fundamentals</a>
+          <a href="https://www.udacity.com/certificate/e/4821c452-ea99-11ef-97e8-2321ba3bab3d">Adroid Developer Fundamentals</a>
+        </div>
+      </div> 
+      <a href="#">ABOUT</a>
+      <a href="#" class="ri">LOGIN</a>
+      <a href="#" class="ri">SIGNUP</a>
+      <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+    </div>
+        
+    <div class="cont">
+        <h1>Sharing <br> <span>Learning Experience</span></h1>
+        <p class="para">This is the first pilot test of my website development! <br> So I am very excited to share this my learning experience and self-improvement document and courses!</p>
+        <button class="learn"><a href="#">Start Now</a></button>
+    </div>
+    <script>
+        function myFunction() {
+          var x = document.getElementById("mynavbar");
+          if (x.className === "navbar") {
+            x.className += " responsive";
+          } else {
+            x.className = "navbar";
+          }
+        }
+        </script>
+</body>
+</html>
